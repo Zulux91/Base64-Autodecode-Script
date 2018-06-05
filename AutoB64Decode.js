@@ -5,7 +5,7 @@
 // @version      0.1
 // @description  Autodecodes any Base64 text on a "code box" and show it as a link.
 // @author       Zulux91
-// @updateURL   https://github.com/Zulux91/Base64-Autodecode-Script/blob/master/AutoB64Decode.js
+// @updateURL   https://github.com/Zulux91/Base64-Autodecode-Script/raw/master/AutoB64Decode.js
 // @match        none
 // @grant        none
 // ==/UserScript==
