@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        AutoBase64Decode
-// @include     http://forum.snahp.*
-// @include     https://forum.snahp.*
+// @include     http://fora.snahp.*
+// @include     https://fora.snahp.*
 // @version      0.1
 // @description  Autodecodes any Base64 text on a "code box" and show it as a link.
 // @author       Zulux91
@@ -29,7 +29,7 @@ if(document.getElementsByTagName("code")) {
             //Put the codebox's text already decoded into this nice variable
             var mylink = b64_to_utf8(dale[i].textContent);
             //Give it some style and show me the money!
-            dale[i].innerHTML = '<center> <b> YOUR DECODED LINK IS BELOW </b> <br/> <a href="'+mylink+'" target="_blank">'+mylink+'</a> </center>';
+            dale[i].innerHTML = '<center> <b> DECODED LINK: </b> <br/> <a href="'+mylink+'" target="_blank">'+mylink+'</a> </center>';
         }
     }
 }
