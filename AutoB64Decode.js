@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        AutoBase64Decode
-// @include     http://fora.snahp.*
-// @include     https://fora.snahp.*
+// @match     http://fora.snahp.*
+// @match     https://fora.snahp.*
 // @version      0.2
 // @description  Autodecodes any Base64 text on a "code box" and show it as a link.
 // @author       Zulux91, Kupie
 // @updateURL   https://github.com/Kupie/Base64-Autodecode-Script/raw/master/AutoB64Decode.js
+// @downloadURL   https://github.com/Kupie/Base64-Autodecode-Script/raw/master/AutoB64Decode.js
 // @match        none
 // @grant        none
 // ==/UserScript==
